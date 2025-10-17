@@ -60,6 +60,12 @@ Archivo: `docs/limitaciones.md`
 - Mejoras futuras: Uso del módulo `secrets` para mayor seguridad, integración con gestores de contraseñas.
 
 ---
+  
+  ## 🎥 Video Demostrativo
+
+[![Ver video](https://img.youtube.com/vi/c72FgTUZSW4/0.jpg)](https://youtu.be/c72FgTUZSW4)
+
+---
 
 ## 🧾 Conclusión
 El Generador de Contraseñas combina programación, seguridad y usabilidad. Permite al usuario generar contraseñas seguras de forma sencilla y demuestra cómo la tecnología puede mejorar la seguridad personal y organizacional.
