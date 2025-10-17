@@ -1,27 +1,13 @@
-```mermaid
 flowchart TD
-    A[Inicio] --> B[Solicitar longitud de contraseña]
-    B --> C[Definir conjunto de caracteres]
-    C --> D{¿Longitud de caracteres alcanzada?}
-    D -- NO --> E[Seleccionar carácter aleatorio]
-    E --> D
-    D -- SI --> F[Mostrar contraseña generada]
-    F --> G[FIN]
+  A[Iniciar aplicación] --> B{Usuario ingresa longitud}
+  B --> C{Longitud válida?}
+  C -- No --> Z[Mostrar advertencia: longitud inválida]
+  C -- Sí --> D[Seleccionar tipos de caracteres]
+  D --> E{Al menos 1 tipo seleccionado?}
+  E -- No --> Y[Mostrar error: seleccionar al menos 1 tipo]
+  E -- Sí --> F[Construir conjunto de caracteres]
+  F --> G[Generar contraseña con random.choice]
+  G --> H[Mostrar contraseña en pantalla]
+  H --> I[Copiar al portapapeles (opcional)]
+  I --> J[Fin]
 
----
-
-###  Diagrama 2: Flujo con validación de opciones
-Guárdalo como `diagrama2.md`:
-```markdown
-```mermaid
-flowchart TD
-    A[Inicio] --> B[Solicitar longitud de contraseña]
-    B --> C{¿Longitud válida?}
-    C -- NO --> B
-    C -- SI --> D[Preguntar si incluir letras, números y símbolos]
-    D --> E[Definir conjunto de caracteres]
-    E --> F{¿Longitud alcanzada?}
-    F -- NO --> G[Seleccionar carácter aleatorio]
-    G --> F
-    F -- SI --> H[Mostrar contraseña generada]
-    H --> I[FIN]
