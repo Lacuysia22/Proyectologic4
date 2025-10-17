@@ -9,7 +9,7 @@
 ## 🧩 Datos del Grupo
 - **Nombre del estudiante:** Martín Gómez (Lacuysia22)  
 - **Carrera:** Ingeniería en Ciberseguridad  
-- **Materia:** Arquitectura de Computadoras y Sistemas Operativos  
+- **Materia:** Lógica de Programación 
 - **Fecha:** Octubre 2025  
 - **Repositorio:** [Proyectologic4](https://github.com/Lacuysia22/Proyectologic4)
 
