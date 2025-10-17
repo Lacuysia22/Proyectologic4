@@ -1,0 +1,20 @@
+﻿INICIO
+  Mostrar ventana principal con:
+    - Campo: Longitud
+    - Checkboxes: mayúsculas, minúsculas, números, símbolos
+    - Botón: Generar Contraseña
+    - Campo resultado
+    - Botón copiar al portapapeles
+
+  Al presionar "Generar Contraseña":
+    leer longitud
+    si longitud < 4 o > 40: mostrar advertencia y FIN
+    construir conjunto de caracteres según opciones seleccionadas
+    si conjunto vacío: mostrar error y FIN
+    contraseña = ""
+    para i = 1 hasta longitud:
+      elegir carácter aleatorio del conjunto
+      agregar a contraseña
+    fin para
+    mostrar contraseña en pantalla
+FIN
